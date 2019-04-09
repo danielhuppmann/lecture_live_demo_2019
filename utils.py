@@ -4,3 +4,7 @@
 
 def funny(x, y):
     return x - y
+
+
+def testFunktion(x, y):
+    return x * y
