@@ -3,6 +3,8 @@
 
 
 def funny(x, y):
-    dummy = x - y
-    out_string = "The result is: {}".format( dummy )
+    return x - y
+
+def funny_outtext(x, y):
+    out_string = "The result is: {}".format(funny(x, y))
     return out_string
